@@ -1,0 +1,60 @@
+#nav {
+  background-color: gray;
+}
+#screen{
+  background-color: black;
+  border: .25em solid black;
+  margin: 1em 10em;
+  padding: .75em;
+}
+#container{
+  background-color: yellow;
+}
+#wrapper{
+  text-align: center;
+}
+#seating-chart-left{
+  text-align: center;
+  display: inline-block;
+  padding-left:
+
+}
+#seating-chart-right{
+  text-align: center;
+  display: inline-block;
+
+}
+#right-seats{
+  padding-right: .5em;
+}
+.col-lg-6{
+  padding:1.5em;
+}
+#test{
+  display: block;
+  background: blue;
+}
+.btn-group-lg{
+  background-color: blue;
+  padding: 2em 2em 2em 1em;
+  }
+
+.row{
+  background-color: red;
+}
+.seat{
+  background-color: blue;
+}
+
+#footer{
+  background-color: grey;
+}
+#footer ul li {
+list-style-type: none;
+/*display: inline-block;*/
+text-align: center;
+}
+#footer li{
+  text-decoration: none;
+  text-align: center;
+}
