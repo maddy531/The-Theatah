@@ -40,6 +40,7 @@
 }
 #seating-chart-left{
   text-align: center;
+  color: white;
   display: inline-block;
   border-radius: .5em;
 }
@@ -50,7 +51,9 @@
 }
 #seating-chart-right{
   text-align: center;
+  color: white;
   display: inline-block;
+  border-radius: .5em;
 }
 #right-seats{
   background-color: #4E5967;
@@ -60,8 +63,11 @@
 .col-lg-6{
   padding:1.5em;
 
+
 }
 .btn-group-lg{
+  color: blue;
+  display: inline-block;
   border-radius: .7em;
   padding: 2em 2em 2em 1em;
 }
