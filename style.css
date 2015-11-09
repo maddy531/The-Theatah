@@ -149,13 +149,29 @@ color: white;
 
 }
 
-/*@media(max-width: 622px) {
-   #seating-chart-left {
+
+
+/*makes small seats hide*/
+@media(min-width: 623px) {
+  #seating-chart-right-small {
     display: none;
   }
-   #seating-chart-right {
+  #seating-chart-left-small {
     display: none;
   }
+}
+/*Not needed*/
+/*@media(min-width: 623px) {
+  #seating-chart-left {
+   display: block;
+ }
+  #seating-chart-right {
+   display: block;
+ }
+}*/
+
+
+  @media(max-width: 622px) {
 
   #seating-chart-right-small {
     display: block;
@@ -165,18 +181,11 @@ color: white;
   }
 }
 
-@media(min-width: 623px and max-width: 1900px) {
- #seating-chart-left {
-    display: block;
+@media(max-width: 621px) {
+   #seating-chart-left {
+    display: none;
   }
    #seating-chart-right {
-    display: block;
-  }
-
-  #seating-chart-right-small {
     display: none;
   }
-  #seating-chart-left-small {
-    display: none;
-  }
-}*/
+}
