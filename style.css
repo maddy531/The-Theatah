@@ -72,12 +72,17 @@
 }
 
 .btn-primary:focus {
-  background: #3FB9E9;
+  background: #1DC5EA;
 }
 
 .btn-primary:active {
   background: #6A8F9C !important;
 }
+
+
+.active{ background-color:blue; }
+.focus{ color:white;font-size:3em; }
+
 
 /*end of content */
 
