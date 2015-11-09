@@ -149,7 +149,6 @@ color: white;
 
 }
 
-<<<<<<< HEAD
 @media(max-width: 622px) {
    #seating-chart-left {
     display: none;
@@ -182,10 +181,3 @@ color: white;
   }
 }
 
-=======
-@media (max-width: 519px) {
-  .btn-group-lg{
-    padding: 0em;
-  }
-}
->>>>>>> 795fdfb6a37b121af1a66b9f292339f579f1cad6
