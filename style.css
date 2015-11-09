@@ -148,3 +148,9 @@ color: white;
   font-size:16px;
 
 }
+
+@media (max-width: 519px) {
+  .btn-group-lg{
+    padding: 0em;
+  }
+}

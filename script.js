@@ -3,7 +3,6 @@ $("body").on('click','.btn',function(){
 });
 
 
-/* What you can do */
 $ref = $(".btn-group");
 
 $("body").on('click',$ref.selector+' .btn',function(){
