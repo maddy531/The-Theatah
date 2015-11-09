@@ -64,10 +64,21 @@
 
 }
 .btn-group-lg{
-  color: blue;
   border-radius: .7em;
   padding: 2em 2em 2em 1em;
 }
+.btn-primary{
+  background-color: #BDC7C5;
+}
+
+.btn-primary:focus {
+  background: #3FB9E9;
+}
+
+.btn-primary:active {
+  background: #6A8F9C !important;
+}
+
 /*end of content */
 
 /*form*/
