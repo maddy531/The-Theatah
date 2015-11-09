@@ -149,8 +149,34 @@ color: white;
 
 }
 
-@media (max-width: 519px) {
-  .btn-group-lg{
-    padding: 0em;
+/*@media(max-width: 622px) {
+   #seating-chart-left {
+    display: none;
+  }
+   #seating-chart-right {
+    display: none;
+  }
+
+  #seating-chart-right-small {
+    display: block;
+  }
+  #seating-chart-left-small {
+    display: block;
   }
 }
+
+@media(min-width: 623px and max-width: 1900px) {
+ #seating-chart-left {
+    display: block;
+  }
+   #seating-chart-right {
+    display: block;
+  }
+
+  #seating-chart-right-small {
+    display: none;
+  }
+  #seating-chart-left-small {
+    display: none;
+  }
+}*/
