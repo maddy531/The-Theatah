@@ -41,7 +41,6 @@
 #seating-chart-left{
   text-align: center;
   color: white;
-  display: inline-block;
   border-radius: .5em;
 }
 #left-seats{
@@ -52,7 +51,6 @@
 #seating-chart-right{
   text-align: center;
   color: white;
-  display: inline-block;
   border-radius: .5em;
 }
 #right-seats{
@@ -67,7 +65,6 @@
 }
 .btn-group-lg{
   color: blue;
-  display: inline-block;
   border-radius: .7em;
   padding: 2em 2em 2em 1em;
 }
