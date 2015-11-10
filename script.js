@@ -13,6 +13,8 @@ $("body").on('click',$ref.selector+' .btn',function(){
     });
 
 
+
+
 /*  Thought maybe duplicate button color change function but have it generate a text box
 (incomplete)
 START
@@ -26,7 +28,7 @@ $("body").on('hover',$ref.selector+' .btn', function(){
 /*
 
 From example in book on pg 332
-START*/
+START
 
 $(function(){
 	$('btn').toggle().fadeToggle();
@@ -44,13 +46,17 @@ $(function(){
 /*END  */
 
 /*  From the Bootstrap site
-START
+START */
 
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
-$(".button-primary:active").popover({ trigger: "manual" , html: true, animation:false})
+$(".button-primary:active").popover({ 
+    trigger: "manual", 
+    html: true, 
+    animation:false
+})
 	.on("mouseenter", function () {
 	    var _this = this;
 	    $(this).popover("show");
@@ -68,7 +74,7 @@ $(".button-primary:active").popover({ trigger: "manual" , html: true, animation:
 END */
 
 /* START
-ss
+
 // jQuery Plugin
 (function($){
 
