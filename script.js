@@ -118,11 +118,11 @@ $(document).ready(function(){
     $('#link2').swapAttr('rel');
 });
 
+<<<<<<< HEAD
 END */
 
 
 });
-
 
 	
 	
