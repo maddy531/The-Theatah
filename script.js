@@ -11,10 +11,8 @@ $ref = $(".btn-group");
 
 $("body").on('click',$ref.selector+' .btn',function(){
     if($(this).hasClass('active')){
-        $(this).addClass('focus')
-    }
-});
-
+        $(this).addClass('focus');
+    });
 
 var $textInput = $('input:text');
 $('#theform').on('submit', function(e){
