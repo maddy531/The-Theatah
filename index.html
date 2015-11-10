@@ -33,6 +33,10 @@
       <h3><small>Pick a seat, any seat! We will need ya name, ya email, ya numbah, and confirm ya seat. Your seat will turn dark blue when we have your info.</small></h3>
     </div>
 
+    <div id="newPatr">
+      <p>Seat Taken by:</p>
+    </div>
+
 <div id="container">
 <!-- container for both left and right seats -->
   <div id="wrapper">
@@ -40,7 +44,7 @@
     <div id="screen">
     </div>
 
-<!-- Left seats: Orginal size -->
+<!-- Left seats: Original size -->
       <div id="seating-chart-left">
 
         <div class="col-xs-6">
@@ -48,10 +52,7 @@
           <div id="left-seats">
                 <div class="btn-group-lg" role="group" aria-label="seat">
                   <!-- Trigger the modal with a button -->
-                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" value="add" id="addedInfo">1</button>
-                  <div class="res-seat">
-                    <p>Meow</p>
-                  </div>
+                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">1</button>
                   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">2</button>
                   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">3</button>
                   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">4</button>
@@ -73,50 +74,46 @@
                   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">20</button>
                 </div>
           </div>
+          <!--Left Seats: Small screen-->
+          <div id="seating-chart-left">
 
+            <div class="col-xs-6">
+
+                <div id="seating-chart-left-small">
+                      <div class="btn-group-xs" role="group" aria-label="seat">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">1</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">2</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">3</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">4</button>
+                      </div>
+
+                      <div class="btn-group-xs" role="group" aria-label="seat">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">9</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">10</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">11</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">12</button>
+                      </div>
+
+                      <div class="btn-group-xs" role="group" aria-label="seat">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">17</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">18</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">19</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">20</button>
+                      </div>
+                </div>
+
+              </div>
+
+            </div>
+            <!-- END-->
         </div>
 
       </div>
-<!-- END -->
 
-<!--Left Seats: Small screen-->
-<div id="seating-chart-left">
-
-  <div class="col-xs-6">
-
-      <div id="seating-chart-left-small">
-            <div class="btn-group-xs" role="group" aria-label="seat">
-              <!-- Trigger the modal with a button -->
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">1</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">2</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">3</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">4</button>
-            </div>
-
-            <div class="btn-group-xs" role="group" aria-label="seat">
-              <!-- Trigger the modal with a button -->
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">9</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">10</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">11</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">12</button>
-            </div>
-
-            <div class="btn-group-xs" role="group" aria-label="seat">
-              <!-- Trigger the modal with a button -->
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">17</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">18</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">19</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">20</button>
-            </div>
-      </div>
-
-    </div>
-
-  </div>
-  <!-- END-->
-
-<!-- Right seats: Original size-->
-<div id="seating-chart-left">
+      <div id="seating-chart-right">
 
         <div class="col-xs-6">
 
@@ -147,6 +144,44 @@
 
           </div>
 
+          <!--Right Seats: Small Screen-->
+
+          <div id="seating-chart-left">
+
+            <div class="col-xs-6">
+                <div id="seating-chart-right-small">
+
+                      <div class="btn-group-xs" role="group" aria-label="seat">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">1</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">2</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">3</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">4</button>
+                      </div>
+
+                      <div class="btn-group-xs" role="group" aria-label="seat">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">9</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">10</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">11</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">12</button>
+                      </div>
+
+                      <div class="btn-group-xs" role="group" aria-label="seat">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">17</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">18</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">19</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">20</button>
+                      </div>
+                </div>
+
+              </div>
+
+            </div>
+            <!-- END-->
+
+
         </div>
 
       </div>
@@ -154,44 +189,6 @@
   </div>
 
 </div>
-<!-- END-->
-
-<!--Right Seats: Small Screen-->
-
-<div id="seating-chart-left">
-
-  <div class="col-xs-6">
-      <div id="seating-chart-right-small">
-            <div class="btn-group-xs" role="group" aria-label="seat">
-              <!-- Trigger the modal with a button -->
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">1</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">2</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">3</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">4</button>
-            </div>
-
-            <div class="btn-group-xs" role="group" aria-label="seat">
-              <!-- Trigger the modal with a button -->
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">9</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">10</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">11</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">12</button>
-            </div>
-
-            <div class="btn-group-xs" role="group" aria-label="seat">
-              <!-- Trigger the modal with a button -->
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">17</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">18</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">19</button>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">20</button>
-            </div>
-      </div>
-
-    </div>
-
-  </div>
-  <!-- END-->
-
 <!--form!-->
 <div class="container">
   <!-- Modal -->
@@ -209,7 +206,7 @@
           <div id="envelope">
             <form action="" method="post">
               <label>Name:</label>
-                <input name="name" placeholder="Maddy Andrade" type="text" value="add" id="addName" width="100px;">
+                <input name="name" placeholder="Maddy Andrade" type="text" width="100px;" id="newName">
               <label>Email:</label>
                 <input name="email" placeholder="yourname@gmail.com" type="text">
               <label>Contact Number:</label>
@@ -218,7 +215,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+          <button type="button" value="add" id="btn btn-submit" data-dismiss="modal">Submit</button>
         </div>
       </div>
 

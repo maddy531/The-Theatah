@@ -72,16 +72,16 @@
 }
 
 .btn-primary:focus {
-  background: #1DC5EA;
+  background: green !important;
 }
 
 .btn-primary:active {
-  background: #6A8F9C !important;
+  background: red !important;
 }
 
 
-.active{ background-color:blue; }
-.focus{ color:white;font-size:3em; }
+.active{ background-color:red; }
+.focus{ color:green;font-size:3em; }
 
 
 /*end of content */
@@ -129,17 +129,6 @@ input[type=text]:focus,textarea:focus {
 
 /*end form*/
 
-/*Showing form info*/
-
-.res-seat{
-  height: 100px;
-  width: 100px;
-  background-color: yellow;
-  color:black;
-}
-
-/*END*/
-
 #footer{
   background-color: #2396CE;
   padding: 1em;
@@ -158,18 +147,4 @@ color: white;
   color: white;
   font-size:16px;
 
-}
-
-/*makes small seats hide*/
-@media (min-width: 622px){
-  #seating-chart-right { display: none; }
-}
-
-@media(min-width: 623px) {
-  #seating-chart-right-small {
-    display: none;
-  }
-  #seating-chart-left-small {
-    display: none;
-  }
 }
