@@ -35,6 +35,7 @@
 
     <div id="newPatr">
       <p>Seat Taken by:</p>
+      <ul id="theUL"></ul>
     </div>
 
 <div id="container">
@@ -204,19 +205,20 @@
         </div>
         <div class="modal-body">
           <div id="envelope">
-            <form action="" method="post">
+            <form id="theform" action="" method="post">
               <label>Name:</label>
                 <input name="name" placeholder="Maddy Andrade" type="text" width="100px;" id="newName">
               <label>Email:</label>
                 <input name="email" placeholder="yourname@gmail.com" type="text">
               <label>Contact Number:</label>
                 <input name="contact" placeholder="123-456-789" type="text">
+              <button type="submit">submit</button>
             </form>
           </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" value="add" id="btn btn-submit" data-dismiss="modal">Submit</button>
-        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" value="add" id="thebutton" class="btn btn-submit" data-dismiss="modal">Submit</button>
+        </div> -->
       </div>
 
     </div>
