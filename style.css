@@ -58,10 +58,17 @@
   opacity: .75;
   border-radius: .5em;
 }
+/*Test for new div action */
+#newPatr{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+/*END*/
+
+
 .col-lg-6{
   padding:1.5em;
-
-
 }
 .btn-group-lg{
   border-radius: .7em;
