@@ -11,8 +11,10 @@ $ref = $(".btn-group");
 
 $("body").on('click',$ref.selector+' .btn',function(){
     if($(this).hasClass('active')){
-        $(this).addClass('focus');
-    });
+        $(this).addClass('focus')
+    }
+});
+
 
 var $textInput = $('input:text');
 $('#theform').on('submit', function(e){
@@ -21,6 +23,7 @@ $('#theform').on('submit', function(e){
     $textInput.val(null)
     var $theUl = $('#theUL');
     $theUl.append("<li>Taken by, " + name + "!</li>");
+    // $seat.text(name);
     $seat.addClass('unavailable');
 });
 
