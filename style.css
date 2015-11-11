@@ -30,7 +30,6 @@
   background-color: black;
   border: .25em solid black;
   margin: 1em 10em;
-  padding: .75em;
   border-radius: .35em;
   color: white;
 }
@@ -59,14 +58,6 @@
   opacity: .75;
   border-radius: .5em;
 }
-/*Test for new div action */
-#newPatr{
-  height: 100px;
-  width: 100px;
-  background-color: yellow;
-}
-/*END*/
-
 
 .col-lg-6{
   padding:1.5em;
@@ -80,16 +71,16 @@
 }
 
 .btn-primary:focus {
-  background: green !important;
+  background: #2396CE !important;
 }
 
 .btn-primary:active {
-  background: red !important;
+  background: #1DC5EA ;
 }
 
 
-.active{ background-color:red; }
-.focus{ color:green;font-size:3em; }
+.active{ background-color:#1DC5EA; }
+.focus{ color:#2396CE;font-size:3em; }
 
 
 /*end of content */

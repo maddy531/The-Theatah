@@ -22,8 +22,8 @@ $('#theform').on('submit', function(e){
     var name = $textInput.val();
     $textInput.val(null)
     var $theUl = $('#theUL');
-    $theUl.append("<li>Taken by, " + name + "!</li>");
-    // $seat.text(name);
+    // $theUl.append("<li> Taken by, " + name + "!</li>");
+    $seat.text(name);
     $seat.addClass('unavailable');
 });
 
